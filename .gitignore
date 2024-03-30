@@ -1,0 +1,15 @@
+output.txt
+*.env
+.terraform*
+.terraform.lock.hcl
+terraform.tfstate*
+
+manifests/sealed-secrets/ghcr-auth-secret.yaml
+
+cluster-keys.json
+
+env.sh
+terraform.tfvars
+sealed-secrets-pub.pem
+
+/keys
